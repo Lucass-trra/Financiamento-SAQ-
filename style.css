@@ -17,7 +17,7 @@ header {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
-    border-bottom: 2px pink solid;
+    box-shadow: 30px;
     height: 150px;
 }
 
@@ -44,7 +44,9 @@ header {
 }
 
 #input_bottuns > button {
-    background-image: linear-gradient(to left,pink,purple);
+    background-image: linear-gradient(to left,rgb(201, 105, 121),rgb(160, 13, 160),rgb(255, 73, 104),rgb(67, 2, 67));
+    background-size:500%;
+    transition: 1s ease-in-out;
     color: white;
     font-weight: 600;
     padding: 10px;
@@ -53,9 +55,13 @@ header {
     width: 20%;
 }
 
-button {
-    transition: 1s;
+
+
+#input_bottuns > button:hover {
+    background-position: right;
 }
+
+
 
 
 select {
