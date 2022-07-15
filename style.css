@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    border: collapse;
+}
+
+html{
+    background-image:linear-gradient(to left,rgba(132, 132, 132, 0.9),rgba(0, 0, 0, 1)),
+                    url(https://www.solarmg.com.br/assets/images/background6.jpg);
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to left,rgb(26, 25, 25,0.8),rgb(255, 146, 164,0.5));
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    border-bottom: 2px pink solid;
+    height: 150px;
+}
+
+#inputs_date {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    margin-top: 3%;
+    padding: 1%;
+}
+
+#inputs_date > input {
+    padding: 10px;
+    width: 20%;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+#input_bottuns {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    margin-top: -2%;    
+}
+
+#input_bottuns > button {
+    background-image: linear-gradient(to left,pink,purple);
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    margin-bottom: -10px;
+    border-radius: 20px;
+    width: 20%;
+}
+
+button {
+    transition: 1s;
+}
+
+
+select {
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -20px ;
+    transition: 1s;
+}
+
+#input_bottuns > input {
+    height: 25px;
+}
+
+#inputs_date > input:hover {
+    background-color: rgb(211, 254, 254);
+}
+
+select:hover {
+    background-color: rgb(252, 252, 204);
+}
+
+
