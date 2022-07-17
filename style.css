@@ -55,15 +55,6 @@ header {
     width: 20%;
 }
 
-
-
-#input_bottuns > button:hover {
-    background-position: right;
-}
-
-
-
-
 select {
     padding: 5px;
     border-radius: 5px;
@@ -73,6 +64,7 @@ select {
 
 #input_bottuns > input {
     height: 25px;
+    transition:1 ease-in-out;
 }
 
 #inputs_date > input:hover {
@@ -81,6 +73,11 @@ select {
 
 select:hover {
     background-color: rgb(252, 252, 204);
+}
+
+
+#input_bottuns > button:hover {
+    background-position: right;
 }
 
 
