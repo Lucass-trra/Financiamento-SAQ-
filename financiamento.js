@@ -8,7 +8,7 @@ class financiamento {
     constructor(valor,entrada,taxaJuros,prazo) {
         this.#taxaJuros = taxaJuros;
         this.#prazo = prazo;
-        this.#parcelas.push(parcelas());
-
+        //composição
+        this.#parcelas.push(parcelas(0,0,0,0,valor-entrada));
     };
 }
