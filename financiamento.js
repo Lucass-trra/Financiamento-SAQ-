@@ -31,5 +31,15 @@ class financiamento {
                 this.#parcelas.push(new parcelas(numero,valor,juros,amortizacao,saldo));
             }
     }
-    
+
+    exibeParcelas() {
+        const parcelas = this.#parcelas.slice(1);
+            for(const parcela of parcelas) {
+                let linha = corpoTabela.insertRow(-1);
+                        for(const dado of parcela.getDadosFormatados()) {
+                            const celula = linha.insertCell(-1);
+                            celula.textcontent = dado;
+                        }
+            }
+    }
 }
