@@ -15,7 +15,8 @@
     </header>
 
     <main>
-        <div id="inputs_date">
+        <section id="dados para entrada">
+            <div id="inputs_date">
             <input type="text" placeholder="valor do bem"> <br>
             <input type="text" placeholder="valor de entrada"> <br>
             <input type="text" placeholder="taxa de juros (%)"> <br>
@@ -33,7 +34,33 @@
                 <option value="1">4 meses</option>
             </select>
         </div>
+        </section>
+        <br>
 
+        <section id="dados_parcelas">
+           <div id="table">
+                <table>
+                    <thead>
+                        <th>N°parcela</th>
+                        <th>Valor</th>
+                        <th>Juros</th>
+                        <th>amortificação</th>
+                        <th>saldo devedor</th>
+                    </thead>
+
+                    <tbody id="corpoTabela">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+           </div> 
+        </section>
+        
         <script type="module" src="./index.js"></script>
     </main>
     
