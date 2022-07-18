@@ -31,6 +31,5 @@ class financiamento {
                 this.#parcelas.push(new parcelas(numero,valor,juros,amortizacao,saldo));
             }
     }
-
-
+    
 }
