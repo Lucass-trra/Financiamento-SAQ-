@@ -17,14 +17,14 @@
     <main>
         <section id="dados para entrada">
             <div id="inputs_date">
-            <input type="text" placeholder="valor do bem"> <br>
-            <input type="text" placeholder="valor de entrada"> <br>
-            <input type="text" placeholder="taxa de juros (%)"> <br>
-            <input type="text" placeholder="tempo (mês)"> <br>
+            <input type="text" placeholder="valor do bem"  id="textoValor"> <br>
+            <input type="text" placeholder="valor de entrada" id="textoEntrada"> <br>
+            <input type="text" placeholder="taxa de juros (%)" id="textoJuros"> <br>
+            <input type="text" placeholder="tempo (mês)" id="textoTempo"> <br>
         </div>
 
         <div id="input_bottuns">
-            <button>calcular</button> <br>
+            <button id="calcBotao">calcular</button> <br>
 
             <label style="text-align: center;" for="comCarencia">Com carência ?</label>
                 <input type="checkbox" name="comCarência" id="comCarencia"> <br>
@@ -49,8 +49,6 @@
                     </thead>
 
                     <tbody id="corpoTabela">
-                        
-                   
                     </tbody>
                 </table>
            </div> 
