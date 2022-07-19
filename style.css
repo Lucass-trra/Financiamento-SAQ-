@@ -88,10 +88,12 @@ thead,th,td,tr {
     border: collapse;
     border: 6px solid rgb(140, 16, 129);
     padding: 20px;
+    
 }
 thead,th {
     border: 3px solid rgb(171, 171, 171);
     background-color: rgb(72, 146, 121);
+    color: black;
 }
 
 td,tr {
@@ -104,6 +106,9 @@ td:hover {
     background-color: rgb(255, 241, 223);
     color: black;
 }
+
+
+
 
 
 
